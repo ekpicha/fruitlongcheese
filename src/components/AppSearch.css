@@ -2,6 +2,22 @@
     margin-bottom: 15px;
 }
 
+.app-search h1 {
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(86, 168, 86);
+}
+
+.app-search h3 {
+    font-size: 15px;
+    margin-top: auto;
+    margin-left: 10px;
+    color: red;
+}
+
 .app-search-input {
     width: 100%;
     padding: 8px;

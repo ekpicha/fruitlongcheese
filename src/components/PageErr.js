@@ -7,7 +7,7 @@ function PageErr() {
       <h4>PageErr 404</h4>
       <div className="page-err-navlink">
         <NavLink to="/" style={{ textDecoration: "none", color: "black"}}>
-          กดเพื่อกลับหน้า Homepage
+          Click go to Home page
         </NavLink>
       </div>
     </div>

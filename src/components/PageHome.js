@@ -4,14 +4,20 @@ import { NavLink, Link } from 'react-router-dom';
 function PageHome() {
   return (
     <div className="page-home">
-      <h1>test</h1>
+      <div className="page-home-topic">
+        <h1>Benefits Of Fruits</h1>
+      </div>
       <div className="page-home-navlink">
-        <NavLink to="/fruits" style={{ textDecoration: "none", color: "black"}}>
-          <h4>PageHome</h4>
+        <NavLink to="/fruits"> 
+            <img className="page-home-navlink-image" src="./images/fruit_wallpaper.gif"></img> 
         </NavLink>
+        {/* <NavLink to="/fruits" style={{ textDecoration: "none", color: "black"}}> */}
+        {/* </NavLink> */}
+      </div>
+      <div className="page-home-text">
+        <h4>** Click image to go Fruits page **</h4>
       </div>
     </div>
-    
   );
 }
 
